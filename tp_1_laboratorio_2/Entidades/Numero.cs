@@ -12,6 +12,12 @@ namespace Entidades
         private double numero;
 
         #region Validar
+        /// <summary>
+        /// metodo que comprobará que el valor recibido sea numérico, y lo retornará en
+        /// formato double en Caso contrario, retornará 0.
+        /// </summary>
+        /// <param name="strNumero"></param>
+        /// <returns></returns>
         private double ValidarNumero(string strNumero)
         {
             if (double.TryParse(strNumero, out double numero))
@@ -20,32 +26,51 @@ namespace Entidades
             }
             return 0;
         }
-
-        private void SetNumero(string strNumero)
+        /// <summary>
+        /// Propiedad que asignará un valor al atributo número, previa validación.
+        /// </summary>
+        public string SetNumero
         {
-            this.numero = ValidarNumero(strNumero);
+            set
+            {
+                this.numero = ValidarNumero(value);
+            }
         }
+
         #endregion
 
         #region Constructor
-
+        /// <summary>
+        /// Constructor base que asignará valor 0 al atributo numero.
+        /// </summary>
         public Numero()
         {
             this.numero = 0;
         }
-
+        /// <summary>
+        /// Constructor que recibe un double que asignará valor al atributo numero.
+        /// </summary>
+        /// <param name="numero"></param>
         public Numero(double numero) : this()
         {
             this.numero = numero;
         }
-
+        /// <summary>
+        /// Constructor que recibe un string que asignará valor al atributo numero luego de validarlo.
+        /// </summary>
+        /// <param name="strNumero"></param>
         public Numero(string strNumero) : this()
         {
-            SetNumero(strNumero);
+            this.SetNumero=strNumero;
         }
         #endregion
 
         #region Conversores
+        /// <summary>
+        /// Metodo que Convierte un número decimal a binario, recibiendo un double en caso de ser posible en Caso contrario retornará "Valor inválido".
+        /// </summary>
+        /// <param name="numero"></param>
+        /// <returns></returns>
         public static string DecimalBinario(double numero)
         {
             long resto;
@@ -63,7 +88,11 @@ namespace Entidades
             }
             return binario.ToString();
         }
-        
+        /// <summary>
+        /// Metodo que Convierte un número decimal a binario, recibiendo un String en caso de ser posible en Caso contrario retornará "Valor inválido".
+        /// </summary>
+        /// <param name="numero"></param>
+        /// <returns></returns>
         public static string DecimalBinario(string numero)
         {
             if (double.TryParse(numero, out double aux))
@@ -72,7 +101,12 @@ namespace Entidades
             }
             return "Valor inválido";
         }
-
+        /// <summary>
+        /// Metodo que validará que la cadena de caracteres esté compuesta
+        /// SOLAMENTE por caracteres '0' o '1'.
+        /// </summary>
+        /// <param name="binario"></param>
+        /// <returns></returns>
         private static bool EsBinario(String binario)
         {
             bool flag = false;
@@ -97,18 +131,42 @@ namespace Entidades
         #endregion
 
         #region Operadores
+        /// <summary>
+        /// Operador que realizarán las sumas entre dos objetos tipo Numero.
+        /// </summary>
+        /// <param name="NumUno"></param>
+        /// <param name="NumDos"></param>
+        /// <returns></returns>
         public static double operator +(Numero NumUno, Numero NumDos)
         {
             return NumUno.numero + NumDos.numero;
         }
+        /// <summary>
+        /// Operador que realizarán las resta entre dos objetos tipo Numero.
+        /// </summary>
+        /// <param name="NumUno"></param>
+        /// <param name="NumDos"></param>
+        /// <returns></returns>
         public static double operator -(Numero NumUno, Numero NumDos)
         {
             return NumUno.numero - NumDos.numero;
         }
+        /// <summary>
+        /// Operador que realizarán las multiplicacion entre dos objetos tipo Numero.
+        /// </summary>
+        /// <param name="NumUno"></param>
+        /// <param name="NumDos"></param>
+        /// <returns></returns>
         public static double operator *(Numero NumUno, Numero NumDos)
         {
             return NumUno.numero * NumDos.numero;
         }
+        /// <summary>
+        //Operador que realizarán las division entre dos objetos tipo Numero en caso de ser por 0 retornará el valor double.MinValue.
+        /// </summary>
+        /// <param name="NumUno"></param>
+        /// <param name="NumDos"></param>
+        /// <returns></returns>
         public static double operator /(Numero NumUno, Numero NumDos)
         {
             if (NumDos.numero != 0)
@@ -119,7 +177,6 @@ namespace Entidades
             {
                 return double.MinValue;
             }
-
         }
         #endregion
 

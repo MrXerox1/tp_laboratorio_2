@@ -8,6 +8,13 @@ namespace Entidades
 {
     public class Calculadora
     {
+        /// <summary>
+        /// Metodo que validará y realizará la operación pedida entre ambos números.
+        /// </summary>
+        /// <param name="numeroUno"></param>
+        /// <param name="numeroDos"></param>
+        /// <param name="operador"></param>
+        /// <returns></returns>
         public static double Operar(Numero numeroUno, Numero numeroDos, string operador)
         {
             switch (ValidaSigno(operador))
@@ -22,7 +29,11 @@ namespace Entidades
                     return numeroUno + numeroDos;
             }
         }
-
+        /// <summary>
+        /// Metodo que valida que el operador recibido sea +, -, / o *
+        /// </summary>
+        /// <param name="operador"></param>
+        /// <returns></returns>
         private static string ValidaSigno(string operador)
         {
             if (operador == "+" || operador == "-" || operador == "*" || operador == "/")
