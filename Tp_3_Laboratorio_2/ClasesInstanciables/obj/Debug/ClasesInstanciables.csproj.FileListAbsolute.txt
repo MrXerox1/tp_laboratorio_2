@@ -1,0 +1,13 @@
+C:\Users\xerox\Desktop\Tirante_Sergio_2°C\ClasesInstanciables\obj\Debug\ClasesInstanciables.csproj.CoreCompileInputs.cache
+C:\Users\xerox\Desktop\Tirante_Sergio_2°C\ClasesInstanciables\obj\Debug\ClasesInstanciables.csprojAssemblyReference.cache
+C:\Users\xerox\Desktop\Tirante_Sergio_2°C\ClasesInstanciables\bin\Debug\ClasesInstanciables.dll
+C:\Users\xerox\Desktop\Tirante_Sergio_2°C\ClasesInstanciables\bin\Debug\ClasesInstanciables.pdb
+C:\Users\xerox\Desktop\Tirante_Sergio_2°C\ClasesInstanciables\bin\Debug\Archivos.dll
+C:\Users\xerox\Desktop\Tirante_Sergio_2°C\ClasesInstanciables\bin\Debug\ClasesAbstractas.dll
+C:\Users\xerox\Desktop\Tirante_Sergio_2°C\ClasesInstanciables\bin\Debug\Exepciones.dll
+C:\Users\xerox\Desktop\Tirante_Sergio_2°C\ClasesInstanciables\bin\Debug\Archivos.pdb
+C:\Users\xerox\Desktop\Tirante_Sergio_2°C\ClasesInstanciables\bin\Debug\ClasesAbstractas.pdb
+C:\Users\xerox\Desktop\Tirante_Sergio_2°C\ClasesInstanciables\bin\Debug\Exepciones.pdb
+C:\Users\xerox\Desktop\Tirante_Sergio_2°C\ClasesInstanciables\obj\Debug\ClasesInstanciables.csproj.CopyComplete
+C:\Users\xerox\Desktop\Tirante_Sergio_2°C\ClasesInstanciables\obj\Debug\ClasesInstanciables.dll
+C:\Users\xerox\Desktop\Tirante_Sergio_2°C\ClasesInstanciables\obj\Debug\ClasesInstanciables.pdb

@@ -1,0 +1,9 @@
+C:\Users\xerox\Desktop\Tirante_Sergio_2°C\Archivos\obj\Debug\Archivos.csprojAssemblyReference.cache
+C:\Users\xerox\Desktop\Tirante_Sergio_2°C\Archivos\obj\Debug\Archivos.csproj.CoreCompileInputs.cache
+C:\Users\xerox\Desktop\Tirante_Sergio_2°C\Archivos\bin\Debug\Archivos.dll
+C:\Users\xerox\Desktop\Tirante_Sergio_2°C\Archivos\bin\Debug\Archivos.pdb
+C:\Users\xerox\Desktop\Tirante_Sergio_2°C\Archivos\bin\Debug\Exepciones.dll
+C:\Users\xerox\Desktop\Tirante_Sergio_2°C\Archivos\bin\Debug\Exepciones.pdb
+C:\Users\xerox\Desktop\Tirante_Sergio_2°C\Archivos\obj\Debug\Archivos.csproj.CopyComplete
+C:\Users\xerox\Desktop\Tirante_Sergio_2°C\Archivos\obj\Debug\Archivos.dll
+C:\Users\xerox\Desktop\Tirante_Sergio_2°C\Archivos\obj\Debug\Archivos.pdb

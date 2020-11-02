@@ -1,0 +1,9 @@
+C:\Users\xerox\Desktop\Tirante_Sergio_2°C\ClasesAbstractas\obj\Debug\ClasesAbstractas.csprojAssemblyReference.cache
+C:\Users\xerox\Desktop\Tirante_Sergio_2°C\ClasesAbstractas\obj\Debug\ClasesAbstractas.csproj.CoreCompileInputs.cache
+C:\Users\xerox\Desktop\Tirante_Sergio_2°C\ClasesAbstractas\bin\Debug\ClasesAbstractas.dll
+C:\Users\xerox\Desktop\Tirante_Sergio_2°C\ClasesAbstractas\bin\Debug\ClasesAbstractas.pdb
+C:\Users\xerox\Desktop\Tirante_Sergio_2°C\ClasesAbstractas\bin\Debug\Exepciones.dll
+C:\Users\xerox\Desktop\Tirante_Sergio_2°C\ClasesAbstractas\bin\Debug\Exepciones.pdb
+C:\Users\xerox\Desktop\Tirante_Sergio_2°C\ClasesAbstractas\obj\Debug\ClasesAbstractas.csproj.CopyComplete
+C:\Users\xerox\Desktop\Tirante_Sergio_2°C\ClasesAbstractas\obj\Debug\ClasesAbstractas.dll
+C:\Users\xerox\Desktop\Tirante_Sergio_2°C\ClasesAbstractas\obj\Debug\ClasesAbstractas.pdb

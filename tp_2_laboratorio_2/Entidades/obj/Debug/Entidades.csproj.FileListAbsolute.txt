@@ -17,3 +17,9 @@ C:\Users\xerox\Desktop\TP-02\Entidades\obj\Debug\Entidades.dll
 C:\Users\xerox\Desktop\TP-02\Entidades\obj\Debug\Entidades.pdb
 C:\Users\xerox\Desktop\TP-02\Entidades\bin\Debug\Entidades.dll
 C:\Users\xerox\Desktop\TP-02\Entidades\bin\Debug\Entidades.pdb
+C:\Users\xerox\source\repos\tp_laboratorio_2\tp_2_laboratorio_2\Entidades\bin\Debug\Entidades.dll
+C:\Users\xerox\source\repos\tp_laboratorio_2\tp_2_laboratorio_2\Entidades\bin\Debug\Entidades.pdb
+C:\Users\xerox\source\repos\tp_laboratorio_2\tp_2_laboratorio_2\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\xerox\source\repos\tp_laboratorio_2\tp_2_laboratorio_2\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\xerox\source\repos\tp_laboratorio_2\tp_2_laboratorio_2\Entidades\obj\Debug\Entidades.dll
+C:\Users\xerox\source\repos\tp_laboratorio_2\tp_2_laboratorio_2\Entidades\obj\Debug\Entidades.pdb
